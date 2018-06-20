@@ -22,6 +22,25 @@ nav {
   	align-items: right;
   	justify-content: right;
 }
+ul {
+	list-style-type: none;
+}
+ul li {
+  	display: inline-block;
+}
+li a {
+	text-decoration: none;
+	padding-right: 10px;
+
+}
+button {
+	background-color: red;
+	border-radius: 20px;
+	border: none;
+	height: 20px;
+	box-shadow: none;
+	display: inline-block;
+}
 .slider1 {
 	background-image: url(image-slider-2.jpg);
 	background-repeat: no-repeat;
@@ -50,8 +69,12 @@ nav {
 	padding: 50px 200px 50px 50px;
 	
 }
-.boxes, h1{
+.boxes {
 	font-size: 25px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .contact{
 	grid-column: 4 / 5;
@@ -62,39 +85,25 @@ nav {
 	grid-column: 1 / 2;
 	grid-row: 4 / 5;
 	padding-right: 50px;
+	background-color: #ff1111;
+	width: 100px;
 }
 .heros {
 	grid-column: 2 / 3;
 	grid-row: 4 / 5;
+	background-color: #114cff;
 }
 .resource {
 	grid-column: 3 / 4;
 	grid-row: 4 / 5;
+	background-color: #1dc130;
 }
 .involved {
 	grid-column: 4 / 5;
 	grid-row: 4 / 5;
+	background-color: #fff314;
 }	
 
-ul {
-	list-style-type: none;
-}
-ul li {
-  	display: inline-block;
-}
-li a {
-	text-decoration: none;
-	padding-right: 10px;
-
-}
-button {
-	background-color: red;
-	border-radius: 20px;
-	border: none;
-	height: 20px;
-	box-shadow: none;
-	display: inline-block;
-}
 
 .bishoplavis{
 	grid-column: 2 / 3;
