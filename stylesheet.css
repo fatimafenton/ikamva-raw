@@ -35,7 +35,7 @@ li a {
 
 }
 button {
-	background-color: red;
+	background-color: #1dc130;
 	border-radius: 10px;
 	border: none;
 	/*height: 20px;*/
@@ -43,15 +43,15 @@ button {
 	display: inline-block;
 	padding: 15px 32px;
 	font-size: 20px;
+	color: white;
 }
 .slider1 {
-	background-image: url(image-slider-2.jpg);
+	background-image: url(images/image-slider-2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	grid-column: 1 / 6;
 	grid-row: 2;
 	background-size: cover;
-	/*max-width: 80vw;*/
     min-height: 40vh;
 }
 .tagline {
@@ -89,25 +89,46 @@ button {
 	justify-content: center;*/
 }
 .student {
-	grid-column: 2 / 3;
+	grid-column: 1 / 3;
 	grid-row: 4 / 5;
-	padding-right: 50px;
+	padding: 50px;
 	background-color: #ff1111;
+	color: white;
+	font-size: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
 .heros {
 	grid-column: 3 / 4;
 	grid-row: 4 / 5;
 	background-color: #114cff;
+	color: white;
+	font-size: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .resource {
 	grid-column: 4 / 5;
 	grid-row: 4 / 5;
 	background-color: #1dc130;
+	color: white;
+	font-size: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .involved {
 	grid-column: 5 / 6;
 	grid-row: 4 / 5;
-	background-color: #fff314;
+	background-color:  #f7dc6f;
+	color: white;
+	font-size: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }	
 
 
@@ -127,6 +148,10 @@ button {
 	vertical-align: middle;
 	display: inline-block;
 }*/
-img {
-}
+img {}
 
+footer{
+	grid-column: 4 / 5;
+	grid-row: 5 / 6;
+	padding: 50px;
+}
