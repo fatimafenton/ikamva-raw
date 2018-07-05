@@ -57,12 +57,18 @@ button {
 .tagline {
 	grid-column: 2 / 3;
 	grid-row: 2;
-	display: flex;
-	/*align-items: center;
-	justify-content: center;*/
 	z-index: 1;
-	padding-top: 200px;
-	padding-left: 50px;
+	margin-top: 200px;
+	/*padding-top: 200px;
+	padding-left: 50px;*/
+	background-color: #114cff;
+	height: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	bottom: 0;
+	/*position: relative;*/
+
 }
 
 .welcome {
@@ -151,7 +157,47 @@ button {
 img {}
 
 footer{
+	grid-column: 1 / 6;
+	grid-row: ;
+	display: inline-block;
+	/*border-radius: 100%;*/
+	background: #000;
+	
+}
+.social-media ul{
+	grid-column: 5 / 6;
+	grid-row: 5 / 6;
+	padding-left: 400px;
+}
+.fa {
+	font-size: 28%;
+}
+ .social-media li a {
+	display: inline-block;
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	border: 2px solid #ddd;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Subscribe{
 	grid-column: 4 / 5;
 	grid-row: 5 / 6;
-	padding: 50px;
+	float: right;
+	margin-right: 300px;
+	padding-top: 20px;
+}
+
+input {
+	border: 2px solid #000;
+    border-radius: 4px;
+    padding: 12px 20px;
+}
+#copyright {
+	text-align: center;
+	color: #fff;
 }
